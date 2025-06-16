@@ -1,0 +1,146 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2f7; 
+            line-height: 1.6;
+            min-height: 200vh; 
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #007bb6; 
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            position: fixed; 
+            width: 100%;
+            z-index: 1; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        .header nav ul li {
+            display: inline;
+            margin:  15px;
+        }
+
+        .header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content-area {
+            padding-top: 80px; 
+        }
+
+        .sidebar {
+            background-color: #b3e5fc; 
+            padding: 20px;
+            width: 25%;
+            float: left; 
+            box-sizing: border-box; 
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky; 
+            top: 90px; 
+            height: fit-content; 
+            margin-right: 20px; 
+        }
+
+        .sidebar h3 {
+            color: #00567f;
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            color: #007bb6;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            margin-top: 30px;
+            background-color: #ffffff;
+            padding: 30px;
+            width: 70%; 
+            float: right; 
+            box-sizing: border-box;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .main-content h2 {
+            color: #00567f;
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+
+        .main-content h3 {
+            color: #007bb6;
+            font-size: 1.8em;
+            margin-top: 25px;
+        }
+
+        .relative-box {
+            position: relative; 
+            background-color: #e0f7fa; 
+            border: 2px dashed #00bcd4; 
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        .absolute-badge {
+            position: absolute; 
+            top: -15px; /* Moves it up outside the box */
+            right: 20px; /* Moves it to the right */
+            background-color: #ff5722; 
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: bold;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+        }
+
+        .footer {
+            background-color: #00334e; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px; 
+            border-radius: 8px; 
+        }
+   
